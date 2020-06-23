@@ -1,0 +1,359 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+ <link rel="stylesheet" href="animate.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script>
+$(document).ready(function()
+{
+$(".drop1").click(function()
+{
+$(".menu1").slideToggle(700);
+});
+$(".drop2").click(function()
+{
+$(".menu2").slideToggle(700);
+});
+$(".drop3").click(function()
+{
+$(".menu3").slideToggle(700);
+});
+});
+</script>
+<style>
+body
+{
+position:relative;
+background-color:rgba(20,17,43);
+}
+.bar1
+{
+background-color:rgba(20,17,43);
+color:rgba(46, 204, 113);
+}
+.cc
+{
+color:rgba(46, 204, 113);
+margin-left:150px;
+}
+.nav-link:hover
+{
+color:white;
+}
+.dropdown-item:hover
+{
+background-color:rgba(46,204,113);
+}
+h1
+{
+color:rgba(46,204,113);
+}
+.a.carousel-caption {
+   position: absolute;
+   margin-bottom:200px;
+margin-right:700px;
+}
+.b.carousel-caption {
+   position: absolute;
+   margin-bottom:200px;
+margin-left:700px;
+}
+.images
+{
+background-color:rgba(213, 219, 219);
+}
+.imgg
+{
+float:left;
+margin-top:50px;
+margin-left:25px;
+padding-bottom:50px;
+}
+.code
+ {
+float:left;
+color:white;
+margin-left:10px;
+}
+.h
+{
+color:rgba(46,204,113);
+}
+.coding
+{
+width:270px;
+height:200px;
+background-color:rgba(0,0,0,0.8);
+border:solid 0px black;
+border-bottom-left-radius:50%;
+border-top-right-radius:50%;
+padding:25px;
+padding-left:25px;
+ position:absolute;
+  transform: translate(-50%, -50%);
+}
+.coding:hover
+{
+border:solid 3px rgba(46,204,113);
+border-bottom-left-radius:0%;
+border-top-right-radius:0%;
+ transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+li
+{
+float:left;
+padding-left:50px;
+}
+.dd:hover
+{
+border:solid 5px rgba(46, 204, 113);
+border-top-left-radius:5%;
+border-bottom-right-radius:5%;
+transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+.inn
+{
+float:left;
+width:270px;
+margin-left:85px;
+padding-bottom:40px;
+}
+.inn2
+{
+background-color:rgba(20,17,43);
+padding:10px;
+color:white;
+}
+.inn2:hover
+{
+background-color:rgba(46,204,113);
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bar1 navbar-black fixed-top">
+  <h3 class="navbar-brand" >Virtual Cop</h3>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link cc" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link cc" href="#">About</a>
+    </li>
+    <li class="nav-item dropdown ">
+      <a class="nav-link cc dropdown-toggle drop1" href="#" id="navbardrop" data-toggle="dropdown" >
+        Pages
+      </a>
+      <div class="dropdown-menu menu1">
+        <a class="dropdown-item" href="#">Our Police Deparment</a>
+        <a class="dropdown-item" href="#">Perform Mission</a>
+        <a class="dropdown-item" href="#">Our Police Officer</a>
+  <a class="dropdown-item" href="aadhar verify.html">Get verified</a>
+      </div>
+    </li>
+  <li class="nav-item dropdown">
+      <a class="nav-link cc dropdown-toggle drop2" href="#" id="navbardrop" data-toggle="dropdown">
+        Portfolio
+      </a>
+      <div class="dropdown-menu menu2">
+        <a class="dropdown-item" href="#">Portfolio 1</a>
+        <a class="dropdown-item" href="#">Portfolio  2</a>
+        <a class="dropdown-item" href="#">Portfolio  3</a>
+      </div>
+    </li>
+  <li class="nav-item dropdown">
+      <a class="nav-link cc dropdown-toggle drop3" href="#" id="navbardrop" data-toggle="dropdown">
+        Blogs
+      </a>
+      <div class="dropdown-menu menu3">
+        <a class="dropdown-item" href="#">Blog 1</a>
+        <a class="dropdown-item" href="#">Blog 2</a>
+        <a class="dropdown-item" href="#">Blog 3</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<h1>rfr</h1>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img1.jpg" alt="Los Angeles" width="1650" height="650">
+ <div class="a carousel-caption">
+        <h2 class="wow fadeInRight slow">Welcome To Police Station</h2>
+        <h1 class="wow fadeInLeft slow">Police International</h1>
+        <p class="wow fadeInRight slow">We had such a great time in LA!</p>
+      </div>  
+    </div>
+    <div class="carousel-item">
+      <img src="img2.jpg" alt="Chicago" width="1650" height="650">
+<div class="b carousel-caption">
+        <h2 class="wow fadeInLeft slow">It's An Honour For Us To Serve You!</h2>
+        <h1 class="wow fadeInRight slow">Your <b>Safety Is</b> Our Job</h1>
+        <p class="wow fadeInLeft slow">We had such a great time in LA!</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img src="img3.jpg" alt="New York" width="1650" height="650">
+<div class="a carousel-caption">
+        <h2 class="wow fadeInRight slow">For Life Without Crime</h2>
+        <h1 class="wow fadeInLeft slow">The Peace Of Every</h1>
+        <p class="wow fadeInRight slow">We had such a great time in LA!</p>
+      </div> 
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</div>
+<div class="images clearfix">
+<div class="code">
+  <img class="imgg wow fadeInLeft slow" src="1.jpg" alt="Snow" style="width:340px;height:360px;">
+  <div class="coding" style="top:940px;left:13%"><h2 class="h wow jackInTheBox slow">Image Text</h2>
+   <p>How to place text over an image:</p></div>
+</div>
+<div class="code">
+   <img class="imgg wow fadeInRight slow" src="2.jpg" alt="Snow" style="width:340px;height:360px;">
+    <div class="coding" style="top:940px;left:39%"><h2 class="h wow jackInTheBox slow">Image Text</h2>
+     <p>How to place text over an image:</p></div>
+</div>
+<div class="code">
+   <img class="imgg wow fadeInLeft slow" src="3.jpg" alt="Snow" style="width:340px;height:360px;">
+    <div class="coding" style="top:940px;left:63%"><h2 class="h wow jackInTheBox slow">Image Text</h2>
+    <p>How to place text over an image:</p></div>
+</div>
+<div class="code">
+    <img class="imgg wow fadeInRight slow" src="4.jpg" alt="Snow" style="width:340px;height:360px;">
+    <div class="coding" style="top:940px;left:87%"><h2 class="h wow jackInTheBox slow">Image Text</h2>
+    <p>How to place text over an image:</p></div>
+</div>
+</div>
+<div style="background-color:white;padding:100px;">
+<img src="cop.png" class="cop wow slideInDown slow">
+<img src="cop2.jpg" class="cop wow pulse slow">
+<div class="dd wow slideInDown slow" style="background-color:rgba(0,0,0,0.8);float:right;width:550px;height:360px;padding:30px;">
+<h2 style="color:white;text-align:center;">OUR <span style="color:rgba(46, 204, 113);"><b>POLICE</b></span> OFFICERS</h2>
+<p style="color:white;">After all, every society gets a police force it deserves because police men and women in the uniform are also a part of the society itself. Whenever the traffic police stops us for not wearing a helmet or for parking at the wrong spot, instead of paying the fine we feel better in arguing with the cop; ultimately it’s us stopping them from doing their duty honestly. So it’s our moral duty to respect our unsung heroes.</p>
+<ul style="list-style-type: none;color:rgba(46, 204, 113);">
+<li><b>Negotiators <br /> Honors</b></li>
+<li><b>Judges<br /> Officers</b></li>
+<li><b>Award <br /> History</b></li>
+</ul>
+</div>
+</div>
+<div class="images clearfix">
+<br/>
+<br/>
+<h2 class="wow slideInDown"style="color:white;text-align:center;"><span style="color:rgba(20,17,43);">OUR</span> <span style="color:rgba(46, 204, 113);"><b>INFORMATION</b></span></h2>
+<br/>
+<br/>
+<div class="inn wow fadeInRight slow">
+<img src="in1.jpg">
+<div class="inn2">
+<h2><b>E-Readiness</b></h2>
+<p><b>Majority have suffered altration in some form, by injected hu</b></p>
+</div>
+</div>
+<div class="inn wow fadeInLeft slow">
+<img src="in2.jpg">
+<div class="inn2">
+<h2><b>Rules and Law</b></h2>
+<p><b>Majority have suffered altration in some form, by injected hu</b></p>
+</div>
+</div>
+<div class="inn wow fadeInRight slow">
+<img src="in3.jpg">
+<div class="inn2">
+<h2><b>Open Data</b></h2>
+<p><b>Majority have suffered altration in some form, by injected hu</b></p>
+</div>
+</div>
+<div class="inn wow fadeInLeft slow">
+<img src="in4.jpg">
+<div class="inn2">
+<h2><b>Safety Tips</b></h2>
+<p><b>Majority have suffered altration in some form, by injected hu</b></p>
+</div>
+</div>
+</div>
+<div style="background-color:white;padding:50px;">
+<h1 class="wow slideInDown" style="color:white;text-align:center;"><span style="color:rgba(20,17,43);">WHAT <span style="color:rgba(46, 204, 113);"><b>IS OUR </b></span>MISSION?</span></h1>
+<div>
+<p style="color:rgba(20,17,43);">Our overriding mission is to enhance the safety and quality of life for students, faculty and staff across the UCSF system. By working in partnership with the community, we strive to promote public safety and crime prevention through education and enforcement; to maintain public order while preserving the legal rights of all individuals; to provide efficient and courteous service; and to reduce the impact of crime.
+</p>
+<p style="color:rgba(20,17,43);">Our comprehensive efforts include effective:</p>
+<ul style="color:rgba(20,17,43);">
+<li class="wow fadeInLeft slow">
+Crime prevention and suppression
+</li><br>
+<li class="wow fadeInRight slow">
+Victim support and assistance
+</li><br><li class="wow fadeInLeft slow">
+Infrastructure protection
+</li><br><li class="wow fadeInRight slow">
+Community education and awareness
+</li><br><li class="wow fadeInLeft slow">
+Emergency preparedness
+</li><br><li class="wow fadeInRight slow">
+Traffic safety
+</li>
+</div>
+<br>
+<footer class="font-small indigo" style="background-color:rgba(20,17,43);">
+<div class="container">
+    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!" style="color:rgba(46, 204, 113);">About us</a>
+        </h6>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!" style="color:rgba(46, 204, 113);">Products</a>
+        </h6>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="aadhar verify.html"" style="color:rgba(46, 204, 113);">Verify!</a>
+        </h6>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!" style="color:rgba(46, 204, 113);">Help</a>
+        </h6>
+      </div>
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!" style="color:rgba(46, 204, 113);">Contact</a>
+        </h6>
+      </div>
+    </div>
+ <hr   style="margin: 0 15%;background-color:rgba(46,204,113);"><br>
+        <p style="line-height: 1.7rem;color:rgba(46,204,113);">We base our policing practices on the principles of service, ethics, professionalism and diversity. As police officers entrusted with the authority to maintain the public peace, we will not compromise our values.</p>
+  <div class="footer-copyright text-center py-3" style="color:white;">© 2020 Copyright:
+    <span style="color:rgba(46, 204, 113);"> VirtualCop.com</span>
+  </div>
+ 
+</footer>
+</div>
+   <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+</body>
+</html>
